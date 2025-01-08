@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   res.send(`
         <h1>iOS App Hosting Server</h1>
         <p>To download the app, use the following link:</p>
-        <p><a href="itms-services://?action=download-manifest&url=https://yourserver.com/manifest.plist">
+        <p><a href="itms-services://?action=download-manifest&url=https://plugilotest.onrender.com/manifest.plist">
             Install App
         </a></p>
     `);
